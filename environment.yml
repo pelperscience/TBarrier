@@ -12,16 +12,13 @@ dependencies:
   - pip # Python's package-management system
   - python=3.7 # Python! Not using latest version as some libs lack support
   - scipy=1.6 # scientific/technical computing library
-  - skimage=0.18.3
+  - scikit-image=0.18.3
   - tqdm=4.56 # a progress bar library
   - wheel # built-package format for pip
   - widgetsnbextension=3.5 # interactive HTML widgets for Jupyter notebooks
   - shapely=1.8.0 # working with geometrical objects such as Polygons
   - numba=0.54.1 # library for fast computing
-<<<<<<< HEAD
   - plotly=5.6.0
-=======
->>>>>>> 9f629d66ae56f4b85feb5c441d44a74d1f3b2bba
   - pip:
     - sdeint==0.2.2
     - ipynb==0.5.1
